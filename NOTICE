@@ -1,0 +1,16 @@
+C Library for SHT1x sensors connected to bcm2835 via GPIO ports
+
+
+This software is a slightly-tweaked copy of the "Raspberry Pi SHT1x 
+communication library" written by John Burns (www.john.geek.nz), which is 
+itself a derivative work of the "Nice Guy SHT11 library" written by Daesung 
+Kim.
+
+Daesung's work is not licensed, but John's work is licensed under CC BY-SA v3.0
+and so this software is licensed by me, John Ruiz, under CC BY-SA v3.0.
+
+See John's blog post at: https://www.john.geek.nz/2012/11/update-reading-data-from-a-sensirion-sht1x-with-a-raspberry-pi/
+
+See Daesung's blog post at: http://www.theniceguy.net/2722
+
+
