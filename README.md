@@ -1,4 +1,3 @@
-# sht1x
 C Library for SHT1x sensors connected to bcm2835 via GPIO ports
 --
 Nearly a 100% copy of John Burns's "[Raspberry Pi SHT1x communication library](https://www.john.geek.nz/2012/11/update-reading-data-from-a-sensirion-sht1x-with-a-raspberry-pi/)".
@@ -22,6 +21,6 @@ sudo make install
 ```bash
 git clone https://github.com/jar349/sht1x.git
 ```
-####3. Compile the library: `$ make`
-
-####4. Install the library to /usr/local/lib: `$ sudo mv libsht1x.so /usr/local/lib`
+####3. Compile and install the library:
+`$ make`
+`$ sudo mv libsht1x.so /usr/local/lib`
