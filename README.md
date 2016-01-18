@@ -22,5 +22,8 @@ sudo make install
 git clone https://github.com/jar349/sht1x.git
 ```
 ####3. Compile and install the library:
-compile: `$ make`
-install: `$ sudo mv libsht1x.so /usr/local/lib`
+```bash
+./configure
+make
+sudo make install
+```
