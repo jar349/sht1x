@@ -1,5 +1,6 @@
 # the test program
 testSHT1x
+sht1x-*
 
 # Object files
 *.o
@@ -33,4 +34,30 @@ testSHT1x
 
 # Debug files
 *.dSYM/
->>>>>>> b304dde9cc781f4f6c5fda60c3e46ec3fdc4857b
+
+# http://www.gnu.org/software/automake
+Makefile
+Makefile.in
+
+# http://www.gnu.org/software/autoconf
+autom4te.cache
+autoscan.log
+autoscan-*.log
+aclocal.m4
+compile
+/config.*
+configure
+configure.scan
+depcomp
+install-sh
+missing
+stamp-h1
+
+# m4
+.deps/
+m4
+
+# libtool
+libtool
+ltmain.sh
+.libs/
