@@ -23,7 +23,10 @@ git clone https://github.com/jar349/sht1x.git
 ```
 ####3. Compile and install the library:
 ```bash
+./autogen.sh
 ./configure
 make
 sudo make install
 ```
+
+The library should be installed in /usr/local/lib and headers in /usr/local/include
